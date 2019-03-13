@@ -2,7 +2,9 @@
 
 def valid_move?(board, index)
   if position_taken?(board, index)
-    puts "Please select a different move"
+    false
+  else
+    true
   end
 end
 
